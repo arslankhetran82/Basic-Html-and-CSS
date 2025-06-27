@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">MyLogo</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+    <div class="hamburger">☰</div>
+  </nav>
+
+  <header class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Front-End Developer & Designer</p>
+    <a href="projects.html" class="btn">View Projects</a>
+  </header>
+
+  <footer>
+    <p>Connect:</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/muhammad-arslan-840b8b113/https://www.linkedin.com/in/muhammad-arslan-840b8b113/">linkedin</a><a href="#">TW</a><a href="#">IN</a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector(".hamburger").onclick = () => {
+      document.querySelector(".nav-links").classList.toggle("open");
+    };
+  </script>
+</body>
+</html>
