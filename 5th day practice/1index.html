@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="2index.css">
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#article">Article</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="articles" class="blog-section">
+        <article>
+             <h2>Learning HTML</h2>
+              <p>HTML is the foundation of the web. It uses semantic tags to give meaning to content.</p>
+
+        </article>
+
+        <article>
+            <h2>Mastering CSS</h2>
+            <p>CSS allows us to design and layout web pages beautifully, responsively, and with animations.</p>
+        </article>
+
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required aria-label="Name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" email="email" required aria-label="Email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+            
+        </form>
+
+    </section>
+
+    <footer>
+    <p>&copy; 2025 My Blog</p>
+  </footer>
+
+</body>
+</html>
